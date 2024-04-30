@@ -1,7 +1,7 @@
 curso = "CST em Analise e Desenvolvimento de sistema "
 componentes_do_grupo = ["Renan Saran", "Lucas Givando", "Rodrigo Silva"]
 disciplinas_envolvidas = ["Programação de Computadores", "Organização e Arquitetura de computadores"]
-versao_do_aplicativo = "1.3"
+versao_do_aplicativo = "1.4"
 
 
 #exibe apenas as opcoes do menu 
@@ -14,7 +14,7 @@ def exibir_menu():
     print("5. Versão")
     print("6. Sair")
     
-    
+#realiza a conversao dos numeros hexadecimais para as letras 
 def letras_hexadecimal(resto):
     
         if resto == 10:
